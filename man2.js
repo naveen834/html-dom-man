@@ -1,3 +1,4 @@
+// fetching and executing script from other url
 function injectScript(src) {
   return new Promise((resolve, reject) => {
     const script = document.createElement('script');
