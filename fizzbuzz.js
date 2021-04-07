@@ -16,3 +16,12 @@ button.addEventListener('click', () => {
   // this.classList.toggle('on');
   button.classList.toggle('on');
 });
+
+let cat = {
+  lives: 9,
+  jump: () => {
+    console.log(this.lives);
+  },
+};
+
+cat.jump();
