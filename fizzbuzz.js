@@ -8,3 +8,11 @@ function fizzbuzz() {
 }
 
 fizzbuzz();
+
+const button = document.getElementById('button');
+
+button.addEventListener('click', () => {
+  console.log(this);
+  // this.classList.toggle('on');
+  button.classList.toggle('on');
+});
